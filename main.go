@@ -15,13 +15,13 @@ func main() {
 	
 	// fmt.Println(task5kyu.Partitions(6))				// Number of integer partitions with distinct parts
 	
-	// fmt.Println(task5kyu.F(5000000))					// Primes with Even Digits
+	// fmt.Println(task5kyu.F(5000000))				// Primes with Even Digits
 	
 	// fmt.Println(task6kyu.FindHeight(6))				// The Pyramid of Cubes
 	
 	// fmt.Println(task6kyu.Sum(132189))				// Sum of Digits / Digital Root
 	
-	slice1 := []int{1,2,2,2,3}							// Array.diff
-	slice2 := []int{2}									// Array.diff
-	fmt.Println(task6kyu.ArrayDiff(slice1, slice2))		// Array.diff
+	slice1 := []int{1,2,2,2,3}					// Array.diff
+	slice2 := []int{2}						// Array.diff
+	fmt.Println(task6kyu.ArrayDiff(slice1, slice2))			// Array.diff
 }

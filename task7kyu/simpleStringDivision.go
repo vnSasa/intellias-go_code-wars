@@ -7,7 +7,7 @@ import(
 	"strconv"
 )
 
-func Solve(st string, k int) int {
+func SolveSimple(st string, k int) int {
 	
 	l := len(st)-k
 	res := 0 

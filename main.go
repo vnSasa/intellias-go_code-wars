@@ -4,7 +4,8 @@ import(
 
 	// "github.com/vnSasa/homework12/task4kyu"
 	// "github.com/vnSasa/homework12/task5kyu"
-	"github.com/vnSasa/homework12/task6kyu"
+	// "github.com/vnSasa/homework12/task6kyu"
+	"github.com/vnSasa/homework12/task7kyu"
 
 	"fmt"
 )
@@ -21,7 +22,9 @@ func main() {
 	
 	// fmt.Println(task6kyu.Sum(132189))				// Sum of Digits / Digital Root
 	
-	slice1 := []int{1,2,2,2,3}					// Array.diff
-	slice2 := []int{2}						// Array.diff
-	fmt.Println(task6kyu.ArrayDiff(slice1, slice2))			// Array.diff
+	// slice1 := []int{1,2,2,2,3}					// Array.diff
+	// slice2 := []int{2}						// Array.diff
+	// fmt.Println(task6kyu.ArrayDiff(slice1, slice2))			// Array.diff
+
+	fmt.Println(task7kyu.Solve("123456", 2))				// Simple string division
 }

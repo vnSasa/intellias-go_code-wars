@@ -24,7 +24,7 @@ func main() {
 	
 	// slice1 := []int{1,2,2,2,3}					// Array.diff
 	// slice2 := []int{2}						// Array.diff
-	// fmt.Println(task6kyu.ArrayDiff(slice1, slice2))			// Array.diff
+	// fmt.Println(task6kyu.ArrayDiff(slice1, slice2))		// Array.diff
 
-	fmt.Println(task7kyu.Solve("123456", 2))				// Simple string division
+	fmt.Println(task7kyu.Solve("123456", 2))			// Simple string division
 }

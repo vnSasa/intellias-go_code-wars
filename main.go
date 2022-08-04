@@ -4,10 +4,10 @@ import(
 
 	// "github.com/vnSasa/homework12/task4kyu"
 	// "github.com/vnSasa/homework12/task5kyu"
-	// "github.com/vnSasa/homework12/task6kyu"
-	"github.com/vnSasa/homework12/task7kyu"
+	"github.com/vnSasa/homework12/task6kyu"
+	// "github.com/vnSasa/homework12/task7kyu"
 
-	"fmt"
+	// "fmt"
 )
 
 func main() {
@@ -31,5 +31,7 @@ func main() {
 	// fmt.Println(task6kyu.ToCamelCase("the-stealth-warrior"))		// Convert string to camel case
 	// fmt.Println(task6kyu.ToCamelCase("The_Stealth_Warrior"))		// Convert string to camel case
 
-	fmt.Println(task7kyu.SolveMost("batttba"))			// Most valuable character
+	// fmt.Println(task7kyu.SolveMost("batttba"))			// Most valuable character
+
+	task6kyu.HigestScoringWordTest()			// Highest Scoring Word
 }

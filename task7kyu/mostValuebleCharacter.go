@@ -1,5 +1,8 @@
 package task7kyu
 
+// Most valuable character
+// https://www.codewars.com/kata/5dd5128f16eced000e4c42ba/go
+
 import (
 	"strings"
 	"sort"

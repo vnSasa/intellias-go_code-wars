@@ -4,8 +4,8 @@ import(
 
 	// "github.com/vnSasa/homework12/task4kyu"
 	// "github.com/vnSasa/homework12/task5kyu"
-	"github.com/vnSasa/homework12/task6kyu"
-	// "github.com/vnSasa/homework12/task7kyu"
+	// "github.com/vnSasa/homework12/task6kyu"
+	"github.com/vnSasa/homework12/task7kyu"
 
 	"fmt"
 )
@@ -35,5 +35,11 @@ func main() {
 
 	// task6kyu.HigestScoringWordTest()					// Highest Scoring Word
 
-	fmt.Println(task6kyu.MultiplicationTable(3))				// Multiplication table
+	// fmt.Println(task6kyu.MultiplicationTable(3))				// Multiplication table
+
+	fmt.Println(task7kyu.Sheep(4))						// If you can't sleep, just count sheep!!
+
+	fmt.Println(task7kyu.Calculator(2, 5, "subtract"))			// Make a function that does arithmetic!
+
+	fmt.Println(task7kyu.SumOfCube(3))					// Sum of Cubes
 }

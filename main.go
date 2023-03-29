@@ -2,8 +2,8 @@ package main
 
 import(
 
-	// "github.com/vnSasa/homework12/task4kyu"
-	"github.com/vnSasa/homework12/task5kyu"
+	"github.com/vnSasa/homework12/task4kyu"
+	// "github.com/vnSasa/homework12/task5kyu"
 	// "github.com/vnSasa/homework12/task6kyu"
 	// "github.com/vnSasa/homework12/task7kyu"
 
@@ -45,5 +45,7 @@ func main() {
 
 	// fmt.Println(task5kyu.OrderWeight("56 65 74 100 99 68 86 180 90"))	// Weight for weight
 
-	fmt.Println(task5kyu.Rot13("Hello World"))	// ROT13
+	// fmt.Println(task5kyu.Rot13("Hello World"))	// ROT13
+
+	fmt.Println(task4kyu.NextBigger(2017))	// Next bigger number with the same digits
 }

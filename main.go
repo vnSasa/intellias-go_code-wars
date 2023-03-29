@@ -43,5 +43,7 @@ func main() {
 
 	// fmt.Println(task7kyu.SumOfCube(3))					// Sum of Cubes
 
-	fmt.Println(task5kyu.OrderWeight("56 65 74 100 99 68 86 180 90"))	// Weight for weight
+	// fmt.Println(task5kyu.OrderWeight("56 65 74 100 99 68 86 180 90"))	// Weight for weight
+
+	fmt.Println(task5kyu.Rot13("Hello World"))	// ROT13
 }

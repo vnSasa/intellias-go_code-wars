@@ -2,8 +2,8 @@ package main
 
 import(
 
-	"github.com/vnSasa/homework12/task4kyu"
-	// "github.com/vnSasa/homework12/task5kyu"
+	// "github.com/vnSasa/homework12/task4kyu"
+	"github.com/vnSasa/homework12/task5kyu"
 	// "github.com/vnSasa/homework12/task6kyu"
 	// "github.com/vnSasa/homework12/task7kyu"
 
@@ -47,5 +47,11 @@ func main() {
 
 	// fmt.Println(task5kyu.Rot13("Hello World"))	// ROT13
 
-	fmt.Println(task4kyu.NextBigger(2017))	// Next bigger number with the same digits
+	// fmt.Println(task4kyu.NextBigger(2017))	// Next bigger number with the same digits
+
+	// fmt.Println(task4kyu.ExpSum(4))		// Explosive Sum 
+
+	// fmt.Println(task4kyu.Solution([]int{-6,-3,-2,-1,0,1,3,4,5,7,8,9,10,11,14,15,17,18,19,20}))	// Range Extraction
+
+	fmt.Println(task5kyu.LCM(2, 3, 4))		// Least Common Multiple
 }

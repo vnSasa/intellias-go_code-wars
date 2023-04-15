@@ -2,8 +2,8 @@ package main
 
 import(
 
-	// "github.com/vnSasa/homework12/task4kyu"
-	"github.com/vnSasa/homework12/task5kyu"
+	"github.com/vnSasa/homework12/task4kyu"
+	// "github.com/vnSasa/homework12/task5kyu"
 	// "github.com/vnSasa/homework12/task6kyu"
 	// "github.com/vnSasa/homework12/task7kyu"
 
@@ -53,5 +53,9 @@ func main() {
 
 	// fmt.Println(task4kyu.Solution([]int{-6,-3,-2,-1,0,1,3,4,5,7,8,9,10,11,14,15,17,18,19,20}))	// Range Extraction
 
-	fmt.Println(task5kyu.LCM(2, 3, 4))		// Least Common Multiple
+	// fmt.Println(task5kyu.LCM(2, 3, 4))		// Least Common Multiple
+
+	// fmt.Println(task4kyu.SumOfIntervals([][2]int{{0, 20}, {-100_000_000, 10}, {30, 40}}))	// Sum of Intervals
+
+	fmt.Println(task4kyu.FormatDuration(3000000))	// Human readable duration format
 }

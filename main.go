@@ -57,5 +57,12 @@ func main() {
 
 	// fmt.Println(task4kyu.SumOfIntervals([][2]int{{0, 20}, {-100_000_000, 10}, {30, 40}}))	// Sum of Intervals
 
-	fmt.Println(task4kyu.FormatDuration(3000000))	// Human readable duration format
+	// fmt.Println(task4kyu.FormatDuration(3000000))	// Human readable duration format
+
+	// var ts = []int{91, 74, 73, 85, 73, 81, 87}
+	// fmt.Println(task5kyu.ChooseBestSum(230, 3, ts))	// Best travel
+
+	// fmt.Println(task4kyu.Permutations("ab"))	// So Many Permutations!
+
+	fmt.Println(task4kyu.SumOfSquares(15))	// Sums of Perfect Squares
 }

@@ -64,5 +64,14 @@ func main() {
 
 	// fmt.Println(task4kyu.Permutations("ab"))	// So Many Permutations!
 
-	fmt.Println(task4kyu.SumOfSquares(15))	// Sums of Perfect Squares
+	// fmt.Println(task4kyu.SumOfSquares(15))	// Sums of Perfect Squares
+
+	// slice := [][]int{
+	// 	{1, 2, 3, 7},
+	// 	{4, 5, 6, 8},
+	// 	{7, 8, 9, 9},
+	// }
+	// fmt.Println(task4kyu.Snail(slice))		// Snail
+
+	fmt.Println(task4kyu.Decompose(50))
 }

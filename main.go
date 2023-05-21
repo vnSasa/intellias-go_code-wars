@@ -73,5 +73,10 @@ func main() {
 	// }
 	// fmt.Println(task4kyu.Snail(slice))		// Snail
 
-	fmt.Println(task4kyu.Decompose(50))
+	// fmt.Println(task4kyu.Decompose(50))		// Square into Squares. Protect trees!
+
+	s1 := "Are they here"
+	s2 := "yes, they are here"
+	fmt.Println(task4kyu.Mix(s1, s2))		// Strings Mix
+
 }

@@ -3,7 +3,7 @@ package task4kyu
 import (
 	"sort"
 )
-  
+
 func SumOfIntervals(intervals [][2]int) int {
 	if len(intervals) == 0 {
 		return 0

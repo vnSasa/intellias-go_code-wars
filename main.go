@@ -1,27 +1,25 @@
 package main
 
-import(
+import (
+	"fmt"
 
 	"github.com/vnSasa/homework12/task4kyu"
 	// "github.com/vnSasa/homework12/task5kyu"
 	// "github.com/vnSasa/homework12/task6kyu"
-	// "github.com/vnSasa/homework12/task7kyu"
-
-	"fmt"
+	// "github.com/vnSasa/homework12/task7kyu".
 )
 
 func main() {
-	
 	// fmt.Println(task4kyu.Partitions(6))					// Number of integer partitions
-	
+
 	// fmt.Println(task5kyu.Partitions(6))					// Number of integer partitions with distinct parts
-	
+
 	// fmt.Println(task5kyu.F(5000000))					// Primes with Even Digits
-	
+
 	// fmt.Println(task6kyu.FindHeight(6))					// The Pyramid of Cubes
-	
+
 	// fmt.Println(task6kyu.Sum(132189))					// Sum of Digits / Digital Root
-	
+
 	// slice1 := []int{1,2,2,2,3}						// Array.diff
 	// slice2 := []int{2}							// Array.diff
 	// fmt.Println(task6kyu.ArrayDiff(slice1, slice2))			// Array.diff
@@ -49,7 +47,7 @@ func main() {
 
 	// fmt.Println(task4kyu.NextBigger(2017))	// Next bigger number with the same digits
 
-	// fmt.Println(task4kyu.ExpSum(4))		// Explosive Sum 
+	// fmt.Println(task4kyu.ExpSum(4))		// Explosive Sum
 
 	// fmt.Println(task4kyu.Solution([]int{-6,-3,-2,-1,0,1,3,4,5,7,8,9,10,11,14,15,17,18,19,20}))	// Range Extraction
 
@@ -77,6 +75,5 @@ func main() {
 
 	s1 := "Are they here"
 	s2 := "yes, they are here"
-	fmt.Println(task4kyu.Mix(s1, s2))		// Strings Mix
-
+	fmt.Println(task4kyu.Mix(s1, s2)) // Strings Mix
 }

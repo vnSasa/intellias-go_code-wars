@@ -15,4 +15,4 @@ func ArrayDiff(a, b []int) []int {
 		}
 	}
 	return res
-  }
+}

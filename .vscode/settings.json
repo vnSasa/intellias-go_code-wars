@@ -1,0 +1,6 @@
+{
+    "background.enabled": true,
+    "ipynb.pasteImagesAsAttachments.enabled": true,
+    "interactiveSession.editor.wordWrap": "off",
+    "backgroundCover.opacity": 0
+}

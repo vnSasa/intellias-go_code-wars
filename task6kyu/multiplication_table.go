@@ -14,7 +14,6 @@ func MultiplicationTable(size int) [][]int {
 		for c := 1; c <= size; c++ {
 			multiTable[r-1][c-1] = counter * c * r
 		}
-
 	}
 
 	return multiTable

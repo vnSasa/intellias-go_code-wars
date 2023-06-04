@@ -11,14 +11,14 @@ func FindHeight(cubes int) int {
 	used := 1
 	n := 1
 	for i := 0; ; i++ {
-		used += n+layer
+		used += n + layer
 		if used == cubes {
 			return layer
 		}
 		if used > cubes {
-			return layer-1
+			return layer - 1
 		}
-		n+=layer
+		n += layer
 		layer++
 	}
 }

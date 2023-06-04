@@ -1,11 +1,10 @@
 package task4kyu
 
 func Snail(snaipMap [][]int) []int {
-
 	if len(snaipMap[0]) == 0 {
 		return []int{}
 	}
-    
+
 	var result []int
 
 	top := 0

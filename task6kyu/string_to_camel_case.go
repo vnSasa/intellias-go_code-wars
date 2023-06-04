@@ -4,8 +4,8 @@ package task6kyu
 // https://www.codewars.com/kata/517abf86da9663f1d2000003
 
 import (
-	"strings"
 	"bytes"
+	"strings"
 )
 
 func ToCamelCase(s string) string {

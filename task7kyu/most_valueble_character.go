@@ -4,12 +4,12 @@ package task7kyu
 // https://www.codewars.com/kata/5dd5128f16eced000e4c42ba/go
 
 import (
-	"strings"
 	"sort"
+	"strings"
 )
 
 type Tuple struct {
-	R rune
+	R    rune
 	Diff int
 }
 
@@ -19,7 +19,7 @@ func SolveMost(s string) rune {
 		lastIdx := strings.LastIndex(s, string(r))
 		arr = append(arr, Tuple{R: r, Diff: lastIdx - i})
 	}
-  
+
 	sort.Slice(arr, func(i, j int) bool {
 		if arr[i].Diff > arr[j].Diff {
 			return true

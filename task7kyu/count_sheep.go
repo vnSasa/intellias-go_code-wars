@@ -7,7 +7,7 @@ import (
 	"fmt"
 )
 
-func Sheep(x int)string {
+func Sheep(x int) string {
 	var text string
 	var i uint
 	for i = 1; i <= uint(x); i++ {

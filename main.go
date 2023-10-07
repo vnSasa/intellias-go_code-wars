@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/vnSasa/homework12/task3kyu"
-	// "github.com/vnSasa/homework12/task4kyu"
+	// "github.com/vnSasa/homework12/task3kyu"
+	"github.com/vnSasa/homework12/task4kyu"
 	// "github.com/vnSasa/homework12/task5kyu"
 	// "github.com/vnSasa/homework12/task6kyu"
 	// "github.com/vnSasa/homework12/task7kyu".
@@ -78,5 +78,9 @@ func main() {
 	// s2 := "yes, they are here"
 	// fmt.Println(task4kyu.Mix(s1, s2)) // Strings Mix
 
-	fmt.Println(task3kyu.Fib(2000)) // The Millionth Fibonacci Kata
+	// fmt.Println(task3kyu.Fib(2000)) // The Millionth Fibonacci Kata
+
+	fmt.Println(task4kyu.NextSmaller(2071)) // Next smaller number with the same digits
+
+	fmt.Println(task4kyu.FindAll(10, 3)) // how many numbers III
 }
